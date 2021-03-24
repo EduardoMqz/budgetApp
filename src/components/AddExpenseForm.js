@@ -6,9 +6,15 @@ const AddExpenseForm = () =>{
             <div className='row'>
                 <div className='col-sm'>
                     <label for='name'>Name</label>
-                    <input required='required' type='text' className='form-control' id='name'>
-                        
-                    </input>
+                    <input required='required' type='text' className='form-control' id='name'></input>
+                </div>
+                <div className='col-sm'>
+                    <label for='cost'>Cost</label>
+                    <input required='requiered' type='text' className='form-control' id='cost'></input>
+                </div>
+                <br/>
+                <div className='col-sm'>
+                    <button type='submit' className='btn btn-primary'>Save</button>
                 </div>
             </div>
         </form>
