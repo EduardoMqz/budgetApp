@@ -29,15 +29,15 @@ const AppReducer = (state, action) =>{
 const initialState ={
     budget:3000,
     expenses:[
-        {id:1, name:'Despensa', cost:300},
-        {id:2, name:'Ahorro', cost:500},
-        {id:3, name:'Bitso', cost:100},
-        {id:4, name:'Terapia', cost:400},
-        {id:5, name:'Celular', cost:25},
-        {id:6, name:'Mara TV faltan 1000', cost:125},
-        {id:7, name:'Credito HSBC', cost:600},
-        {id:8, name:'Genshin Impact', cost:125},
-        {id:9, name:'Mara Teclado faltan 1000', cost:125}
+        {id:1, name:'Gasto 1', cost:300},
+        {id:2, name:'Gasto 2', cost:500},
+        {id:3, name:'Gasto 3', cost:100},
+        {id:4, name:'Gasto 4', cost:400},
+        {id:5, name:'Gasto 5', cost:25},
+        {id:6, name:'Gasto 6', cost:125},
+        {id:7, name:'Gasto 7', cost:600},
+        {id:8, name:'Gasto 8', cost:125},
+        {id:9, name:'Gasto 9', cost:125}
     ],
 };
 
